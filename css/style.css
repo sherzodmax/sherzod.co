@@ -9,16 +9,15 @@ html, body{
 
 
 a {	
-	transition:color .0s ease-out, color .3s ease-in;
+	transition:color .0s ease-out, color .1s ease-in;
 	text-decoration:none;
     color: #47689a;
     /*3a689c, 3762a4, 3f6297, 426394 getting lighter - close to light gray*/
 }
 
  a:hover {
-        color:#C0C0C0 ;
-		transition: background 1.2s;
-        transition:.4s;
+        color:#C0C0C0 ;		
+        transition:.3s;
  }
 
 
@@ -45,8 +44,7 @@ a:visited {text-decoration:none;
 		}
 #sher:hover{
         color:#C0C0C0;
-        transition: background 1.2s;
-        transition:.4s;
+        transition:.3s;
 		}
 
 ul{	
@@ -67,15 +65,13 @@ ul{
 li{
  	display:inline;
  	padding: 35px 20px 38px 25px;
- 	transition: background 1s;
  	margin-left:-3px;
- 	transition:color .0s ease-out, color .3s ease-in;
+ 	transition:color .0s ease-out, color .1s ease-in;
  	}
 
 li:hover{
         color:#C0C0C0 ;
-		transition: background 1.2s;
-        transition:.4s;
+        transition:.3s;
 		}
 
 
@@ -107,7 +103,6 @@ li:hover{
 
 #folio:hover {
 	color: black;
-	transition: background 1.2s;
     transition:.4s;
 	opacity:1;
 
