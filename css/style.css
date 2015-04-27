@@ -304,6 +304,8 @@ span.rollover:hover {
  	position:relative;
  	display:inline;
  	font-size: 11px;
+ 	font-weight: 700;
+ 	display: inline;
 
 }
 #sher {
@@ -319,8 +321,13 @@ span.rollover:hover {
  	 	padding-bottom: 4%;
 
 }
+
+h5.section { 
+	font-size: 2rem;
+
 }
 
+}
 
 @media (max-width: 478px) {
 #ulnav{
@@ -330,6 +337,8 @@ span.rollover:hover {
  	display: block;
  	position:relative;
  	display:inline;
+ 	font-weight: 700;
+ 	display: inline;
 }
 #sher {
     width: 100%;
@@ -351,13 +360,13 @@ h2 {
 }
 h5 {
 	font-size:14px;
-	margin-bottom: -10%;
+	margin-bottom: -8%;
 	text-align: center;
 }
 }
 @media (width: 320px) {
 h5 {
-	width: 80%;
+	width: 77%;
 	margin: 0 auto;
 	font-size:14px;
 	margin-bottom: -10%;
