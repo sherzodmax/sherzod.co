@@ -321,8 +321,8 @@ span.rollover:hover {
 }
 }
 
-@media (max-width: 478px) {
 
+@media (max-width: 478px) {
 #ulnav{
   width: 100%;
   margin: 0 auto;
@@ -342,6 +342,26 @@ span.rollover:hover {
  	padding-top: 10%;
  	margin-left: -4%;
  	padding-bottom: 4%;
+}
+h2 {
+	font-size:25px;
+	text-align: center;
+	margin-top: 10%;
+
+}
+h5 {
+	font-size:14px;
+	margin-bottom: -10%;
+	text-align: center;
+}
+}
+@media (width: 320px) {
+h5 {
+	width: 80%;
+	margin: 0 auto;
+	font-size:14px;
+	margin-bottom: -10%;
+	text-align: center;
 }
 }
 
