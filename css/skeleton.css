@@ -413,15 +413,20 @@ there.
 
 
 /*----------------------------- MINE ---------------------------------------------------------------------*/
+
 /* Larger than mobile */
 @media (min-width: 400px) {
+
+ul.ulnav {
+  width: 100%;
+  margin: 0 auto;
+}
 
 .four.columns {
 overflow:hidden;
 display: inline-block;
 width:100%;
 }
-
 
 .six.columns{
 overflow:hidden;
@@ -526,10 +531,6 @@ width:48%;
 }
 
 img {max-width: 100%;}
-
-
-
-
 
 
 
