@@ -426,6 +426,7 @@ ul.ulnav {
 overflow:hidden;
 display: inline-block;
 width:100%;
+text-align: center;
 }
 
 .six.columns{
