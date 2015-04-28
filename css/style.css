@@ -91,7 +91,7 @@ li:hover{
 	font-family: "Montserrat", sans-serif;
 	font-weight: 600;
 	color: #979799;
-	margin-top: 100px;
+	margin-top: 12%;
 	margin-bottom: 50px;
 }
 
@@ -379,7 +379,9 @@ h5 {
 #work {
 	padding-top: -10%;
 }
-
+ .eight.columns.herotext {
+ 	margin-bottom: 20% !important;
+ }
 }
 @media (width: 320px) {
 h5 {
@@ -401,6 +403,10 @@ h5 {
  @media (max-width: 650px) {
 #about {
 	
+ }
+ .section {
+ 	margin-top: 20%;
+ 	font-size: 18px !important;
  }
 }
 
