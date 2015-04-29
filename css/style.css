@@ -210,7 +210,18 @@ span.rollover:hover {
 	width: 100;*/
 
 }
+.captionbottom {
+	padding-top:8% !important;
+	padding-bottom:2%;     
+	font-size: 1.4rem;
+    color:#9A9A9A;
+    text-align: center;
 
+	vertical-align: text-bottom;
+	margin: 0 auto;
+	width: 100;
+
+}
 
 
 /*ABOUT------------------------------ ABOUT ------------------------------*/
