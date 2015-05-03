@@ -77,22 +77,6 @@ li:hover{
 
 /*.four.columns, eleven.columns {background: #EEE;}*/
 
-body {
-  padding-top: 87px; // same as header height
-}
-header {
-  background:gray;
-  height: 87px;
-  position: fixed;
-  top: 0;
-  transition: top 0.2s ease-in-out;
-  width: 100%;
-}
-// we'll add this class using javascript
-.nav-up {
-  top: -87px; // same as header height. use variables in LESS/SASS
-}
-
 
 
 
@@ -456,5 +440,10 @@ h5 {
  	font-size: 18px !important;
  }
 }
+
+
+// ---------- OTHER EXEPTIONS --------------
+
+
 
 
