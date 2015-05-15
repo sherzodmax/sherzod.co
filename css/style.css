@@ -41,8 +41,9 @@ a:visited {text-decoration:none;
  margin: 0 auto;
  max-width: 100% !important;
  top: 0;
-
 }
+
+body { -webkit-font-smoothing: subpixel-antialiased; } /*This is to fix the postion fixed wierd font error:*/
 
 #nav {
 	margin: 0 auto !important;
@@ -71,11 +72,10 @@ a:visited {text-decoration:none;
 		}
 
 ul{	
-	
 	list-style-type: none;
  	font-size: 14px;
- 	font-family:'Lato';
-    font-weight: 700 !important;
+ 	font-family:'Lato', sans-serif;
+    font-weight: 700;
 	float: right;
 	padding-bottom:0px ;
 	padding-top:20px;
@@ -110,8 +110,9 @@ li:hover{
 	font-family: "Montserrat", sans-serif;
 	font-weight: 600;
 	color: #979799;
-	margin-top: 22%;
+	margin-top: 12%;
 	margin-bottom: 50px;
+
 }
 @media (max-width: 480px) {
 	.section {
@@ -488,8 +489,8 @@ h5 {
 
 
 .eight.columns.herotext {
-	margin-top: 23%;
-	margin-bottom:-9% !important;
+	margin-top: 22%;
+	margin-bottom: 2%!important;
 }
 
 @media (max-width: 481px) {
@@ -498,6 +499,7 @@ h5 {
 	}
 
 }
+
 
 /*<!-- initially -->
 .headroom {
