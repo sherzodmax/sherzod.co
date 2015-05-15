@@ -30,10 +30,32 @@ a:visited {text-decoration:none;
     		text-decoration:none; 
 			color:47689a;
     }        
-            
+
+
+.container.header {
+ background-color:rgba(255,255,255,0.96);
+ height:12% ;
+ position:fixed;
+ z-index:1;
+ width:100%;
+ margin: 0 auto;
+ max-width: 100% !important;
+ top: 0;
+
+}
+
+#nav {
+	margin: 0 auto !important;
+	max-width: 960px;
+	position: relative !important;
+	float: center !important;
+}
+ 
+
+
 #sher{ 	
         float:left;
-		margin-top:30px;
+		margin-top:22px;
 		font-family: "proxima-nova", sans-serif;
 		font-weight: 600;
 		font-size:24px;
@@ -41,6 +63,7 @@ a:visited {text-decoration:none;
 		transition: background 1s;
         transition:color .0s ease-out, color .3s ease-in; 
         padding-left: 1%;
+        
 		}
 #sher:hover{
         color:#C0C0C0;
@@ -52,11 +75,11 @@ ul{
 	list-style-type: none;
  	font-size: 14px;
  	font-family:'Lato';
-    font-weight: 700;
+    font-weight: 700 !important;
 	float: right;
 	padding-bottom:0px ;
 	padding-top:20px;
-	margin-top:20px;
+	margin-top:13px;
     letter-spacing:.8px;
     position: relative;
     /*left:18px;*/
@@ -80,8 +103,6 @@ li:hover{
 
 
 
-
-
 /*WORK------------------------------ WORK ------------------------------*/
 
 .section {
@@ -89,9 +110,15 @@ li:hover{
 	font-family: "Montserrat", sans-serif;
 	font-weight: 600;
 	color: #979799;
-	margin-top: 12%;
+	margin-top: 22%;
 	margin-bottom: 50px;
 }
+@media (max-width: 480px) {
+	.section {
+		padding-top:40%;
+	}
+}
+
 
 #folio{ 
 	position: relative;
@@ -436,14 +463,41 @@ h5 {
 	
  }
  .section {
- 	margin-top: 20%;
+ 	margin-top: ;
  	font-size: 18px !important;
  }
 }
 
 
-// ---------- OTHER EXEPTIONS --------------
 
+.clear {
+    clear: both;
+}
+
+@media (max-width: 481px) {
+	.container.header {
+		height:16%;
+		background-color:rgba(255,255,255,0.8);
+ 		position:fixed;
+ 		top: -8px;
+	}
+	#sher {
+		margin-bottom: -4%;
+	}
+}
+
+
+.eight.columns.herotext {
+	margin-top: 23%;
+	margin-bottom:-9% !important;
+}
+
+@media (max-width: 481px) {
+.eight.columns.herotext {
+	margin-top: 50%;
+	}
+
+}
 
 /*<!-- initially -->
 .headroom {
