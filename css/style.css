@@ -39,11 +39,13 @@ a:visited {text-decoration:none;
  z-index:1;
  /*width:100%; this is most recent change June 9*/
  margin: 0 auto;
- max-width: 100% !important;
+ max-width:100%!important;
  top: 0;
- border: 1px;
- border-bottom-color: black;
 }
+
+/*.container.header.b {
+	 border-bottom: thin solid #ebebeb;
+} */
 
 body { -webkit-font-smoothing: subpixel-antialiased; } /*This is to fix the postion fixed wierd font error:*/
 
