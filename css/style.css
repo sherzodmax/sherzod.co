@@ -61,7 +61,7 @@ body { -webkit-font-smoothing: subpixel-antialiased; } /*This is to fix the post
 #sher{ 	
         float:left;
 		margin-top:20px;
-		font-family: "proxima-nova", sans-serif;
+		font-family: "Proxima-nova", sans-serif;
 		font-weight: 600;
 		font-size:24px;
 		letter-spacing:.2px;
@@ -167,6 +167,7 @@ p {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 600;
 	color: #979799;
+	letter-spacing:.02rem;
 	margin-top: 12%;
 	margin-bottom: 50px;
 
@@ -178,10 +179,11 @@ p {
 }
 
 .title {
-	font-size: 1.6em; /*used to be 26px*/
+	font-size: 1.8em; /*used to be 26px*/
 	font-family: "Montserrat", sans-serif;
 	font-weight: 600;
 	color: #979799;
+	letter-spacing:.08rem;
 	margin-top: 12%;
 	margin-bottom: 50px;
 
