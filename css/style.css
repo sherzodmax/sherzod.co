@@ -114,10 +114,10 @@ a.u {
 }
 
 .t {
-	font-size: 1.6rem;
+	font-size: 1.4rem;
 	font-weight: 700;
-	letter-spacing: .06rem;
-	opacity: 0.5;
+	letter-spacing: .09rem;
+	opacity: 0.45;
 }
 
 h3 {
@@ -202,7 +202,6 @@ p {
 	opacity:1;
 
 } 
-
 
 
 .thumbtitle {
@@ -610,14 +609,4 @@ h5 {
 .headroom--unpinned {
     transform: translateY(-100%);
 }*/
-
-
-
-
-
-
-
-
-
-
 
