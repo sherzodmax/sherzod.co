@@ -501,6 +501,21 @@ p {
 	font-size: 1.6rem;
 }
 
+.h5 {
+	padding: 3% 0 12% 0;
+	font-weight: 700;
+	font-size: 1.6rem;
+}
+
+.captionbottom {
+	font-size:1.2rem;
+}
+
+.ulbody {
+	font-size: 1.6rem;
+	padding-left: 2%;
+}
+
 .me {
 	width: 40%;
 }
