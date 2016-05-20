@@ -104,6 +104,10 @@ img {max-width: 100%;
   .offset-by-one-half.column,
   .offset-by-one-half.columns     { margin-left: 52%; }
 
+  /*My Adjustment*/
+    .offset-by-one-and-half.column,
+    .offset-by-one-and-half.columns { margin-left: 14%; }
+
 }
 
 
