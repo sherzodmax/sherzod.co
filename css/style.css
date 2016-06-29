@@ -1,9 +1,11 @@
 /*Sherzod.co style*/
 
 html, body{
-	  font-family: "proxima-nova", sans-serif;
+	font-family: -apple-system, -apple-system-body, BlinkMacSystemFont, '.SFNSDisplay-Regular','.SFNSText-Regular', sans-serif;
    }
 
+/*font-family: "proxima-nova", sans-serif;
+-apple-system-body*/
 a {	
 	transition:color .0s ease-out, color .1s ease-in;
 	text-decoration:none;
@@ -11,22 +13,16 @@ a {
     /*3a689c, 3762a4, 3f6297, 426394 getting lighter - close to light gray*/
 }
 
- a:hover {
-        color:#A4B4CD;	/*was color:#C0C0C0;*/
-        transition:.3s;
+a:hover {
+    color:#A4B4CD;	/*was color:#C0C0C0;*/
+    transition:.3s;
  }
-
-
-a:visited {text-decoration:none;
-
-		
+a:visited {text-decoration:none;		
 	}	
-    
-    a:active {
+a:active {
     		text-decoration:none; 
 			color:47689a;
     }        
-
 
 .container.header {
  background-color:rgba(255,255,255,0.96);
@@ -57,7 +53,8 @@ body { -webkit-font-smoothing: subpixel-antialiased; } /*This is to fix the post
 #sher{ 	
         float:left;
 		margin-top:20px;
-		font-family: "Proxima-nova", sans-serif;
+		font-family: -apple-system, -apple-system-body, BlinkMacSystemFont, '.SFNSDisplay-Regular', sans-serif;
+		/*"Proxima-nova", sans-serif;*/
 		font-weight: 600;
 		font-size:24px;
 		letter-spacing:.2px;
@@ -301,7 +298,7 @@ span.rollover:hover {
 }
 .captionbottom {
 	font-size: 1.4rem;
-	font-weight: 500;
+	font-weight: 400;
     color:#9A9A9A;
     padding-top:1% !important;
     letter-spacing: .01rem;
@@ -353,7 +350,8 @@ span.rollover:hover {
 }
 
 .aboutme {
-	font-family: "proxima-nova", sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
+	/*"proxima-nova", sans-serif;*/
 	margin: 0 auto;
 	padding-top: 4%;
 	padding-bottom: 4%;
@@ -406,21 +404,45 @@ p#sendmeemail {
 
 /*MEDIA QUERIES------------------------------ MEDIA QUERIES ------------------------------*/
 
+@media (width: 320px) {
+#ulnav{
+  	width: 100%;
+  	margin: 0 auto;
+  	text-align: ;
+  	display: block;
+ 	position:relative;
+ 	display:inline;
+ 	font-size:1rem !important;
+ 	font-weight: 700;
+ 	display: inline;
+}
+h5 {
+	width: 75%;
+	margin: 0 auto;
+	font-size:14px;
+	margin-bottom: -10%;
+	text-align: center;
+}
+}
+
+@media (max-width: 321px) {
+
+.container {
+  width: 320px;
+}
+}
 
 @media (max-width: 400px) {
-
 #ulnav{
-  width: 100%;
-  margin: 0 auto;
-  text-align: ;
+  	width: 100%;
+  	margin: 0 auto;
+  	text-align: ;
  	display: block;
  	position:relative;
  	display:inline;
- 	font-size: 11px;
+ 	font-size: 1.1rem;
  	font-weight: 700;
  	display: inline;
- 	
-
 }
 #sher {
     width: 100%;
@@ -430,19 +452,18 @@ p#sendmeemail {
  	position:relative;
  	display:inline;
  	font-size: 16px;
- 	 	padding-top: 10%;
- 	 	margin-left: -3%;
- 	 	padding-bottom: 4%;
-
+	padding-top: 10%;
+ 	margin-left: -3%;
+ 	padding-bottom: 4%;
 }
 
 h5.section { 
 	font-size: 2rem;
-
 }
-
+h5#hero2 {
+	font-size: 2rem;
 }
-
+}
 @media (max-width: 480px) {
 #ulnav{
   width: 100%;
@@ -518,22 +539,6 @@ p {
 	margin-top: 18%;
 }
 
-}
-@media (width: 320px) {
-h5 {
-	width: 75%;
-	margin: 0 auto;
-	font-size:14px;
-	margin-bottom: -10%;
-	text-align: center;
-}
-}
-
-@media (max-width: 321px) {
-
-.container {
-  width: 320px;
-}
 }
  @media (max-width: 650px) {
 #about {
