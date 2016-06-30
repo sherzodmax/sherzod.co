@@ -483,6 +483,7 @@ header {
  	display:inline;
  	font-size: 16px;
 	padding-top: 10%;
+	margin-top: -2%!important;
  	margin-left:-3.6% !important;
  	margin-bottom:-6.6% !important; /*- doenst work*/
 }
@@ -497,7 +498,7 @@ h5#hero2 {
 @media (max-width: 480px) {
 .container.header {
  background-color:rgba(255,255,255,0.96);
- height:10.5% ;
+ height:10.6% ;
  position:fixed;
  z-index:1;
  /*width:100%; this is most recent change June 9*/
@@ -530,6 +531,7 @@ h5#hero2 {
  	padding-top: 8%;
  	margin-left: -2%;
  	padding-bottom:1%;
+ 	margin-top: -1.2%!important;
 }
 h2 {
 	font-size:25px;
