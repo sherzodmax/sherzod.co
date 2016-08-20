@@ -74,7 +74,7 @@ body { -webkit-font-smoothing: subpixel-antialiased; } /*This is to fix the post
 ul#ulnav {	
 	/*list-style-type: none;*/
  	font-size: 14px;
- 	font-family:'Lato', sans-serif;
+ 	/*font-family:'Lato', sans-serif;*/
     font-weight: 700;
 	float: right;
 	padding-bottom:0px ;
