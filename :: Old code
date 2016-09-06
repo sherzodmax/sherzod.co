@@ -1,0 +1,332 @@
+// Old co3de
+
+
+
+<!-- <style type="text/css" media="screen">
+    p { max-width: 32em; line-height: 1.6; font-size: ; }
+    @media screen and (min-width: 48em) {
+      p,ul { font-size:1.4em; }
+    }
+    code, pre code { font-size: 14px; }
+  </style> -->
+
+
+- - - 
+
+<!-- 
+  <div class="mv6"></div>
+
+  <div class="pv1 my-w1 b">
+    <a href="" class="my-link dark-blue">
+      <ul class="list di fl f4 tl ph3 pt2 pb3" style="padding-left:;">
+        <li class="di">Sherzod</li>
+      </ul>
+    </a>
+    <ul class="list di fr pv3 ttu f6 my-tracked2 mt3">
+      <a href="" class="my-link dark-blue ph4 pv4">
+        <li class="di">Work</li>
+      </a>
+      <a href="" class="my-link dark-blue ph4 pv4">
+        <li class="di">About</li>
+      </a>
+      <a href="" class="my-link dark-blue ph4 pv4">
+        <li class="di">Contact</li>
+      </a>
+    </ul> -->
+
+- - - 
+
+  <div class="ph3 my-w1 dim">
+    <a href="" class="my-thumb-link">
+    <div class="thumb-labdoor ba br3 h5-ns" style="border-color:#2F96CD;">
+      <div class="bg-white h-100-ns w-40 tc pv5" style="border-radius:.46rem; border-top-right-radius: 0; border-bottom-right-radius: 0;">
+        <h3 class="black-80 fw6 f2-ns my-lh">Labdoor</h3>
+        <p class="f6 silver lh-copy">Ecommerce, Healthcare <br> Web, Branding. 2015-2016</p>
+      </div>
+    </div>
+    </a>
+  </div>
+
+  <div class="ph3 my-w1 pt4">
+    <a href="" class="my-thumb-link">
+    <div class="thumb-labdoor br3 h5-ns">
+      <div class="bg-white h-100-ns w-40 ba my-border-color-blue tc pv5" style="border-width:1px; border-radius:.46rem; border-top-right-radius: 0; border-bottom-right-radius: 0;">
+        <h3 class="black-80 fw6 f2-ns my-lh">Labdoor</h3>
+        <p class="f6 silver lh-copy">Ecommerce, Healthcare <br> Web, Branding. 2015-2016</p>
+      </div>
+    </div>
+    </a>
+  </div>
+
+
+  <div class="ph3 my-w1 pt3">
+    <a href="" class="my-thumb-link black-80 hover-labblue">
+    <div class="thumb-labdoor br3 h5-ns ba br3 b-tlab2">
+      <div class="bg-white br3 h-100-ns w-40 ba b-tlab1 tc pv5" style="border-width:1px; border-radius:.46rem; border-top-right-radius: 0; border-bottom-right-radius: 0; ">
+        <h3 class="fw6 f2-ns my-lh">Labdoor</h3>
+        <p class="f6 fw3 silver lh-copy">Ecommerce, Healthcare <br> Web, Branding. 2015-2016</p>
+      </div>
+    </div>
+    </a>
+  </div>
+
+  <div class="ph3 my-w1 pt4 pb4">
+    <a href="" class="my-thumb-link black-80 hover-unred">
+    <div class="thumb-s thumb-unravel br3 h5-ns ba b-tun2">
+      <div class="textbox-s bg-white br3 h-100-ns w-40 ba b-tun1 tc pv5" style=" border-width:1px; border-radius:.46rem; border-top-right-radius: 0; border-bottom-right-radius: 0;">
+        <h3 class="fw6 f2-ns my-lh">Unravel</h3>
+        <p class="f6 fw3 silver lh-copy">Social Networking<br> Mobile - iOS, Android. 2014-2015</p>
+      </div>
+    </div>
+    </a>2
+
+
+  <!-- <div class="ph3 my-w1 pt4 pb5 flex-row flex-wrap justify-center" style=""> 
+    <a href="" class="my-thumb-link black-80">
+    <div class="item items-start thumb-unravel br3 thumb-v-h mh3 relative" style="flex: 1;   padding: 4em;">
+      <div class="bg-white h-50 w-100 ba my-border-color-blue tc pt4 ph5 absolute bottom-0" style=" border-width:1px; border-radius:.46rem; border-top-left-radius: 0; border-top-right-radius: 0;">
+        <h3 class="fw6 f2-ns my-lh">Unravel</h3>
+        <p class="f6 fw3 silver lh-copy">Social Networking<br> Mobile - iOS, Android. 2014-2015</p>
+      </div>
+    </div>
+    </a>
+
+    <a href="" class="my-thumb-link black-80">
+    <div class="item thumb-medigram br3 thumb-v-h relative mh3 ">
+      <div class="bg-white h-50 pt4 w-100 ba my-border-color-blue tc pt4 ph5 bottom-0 absolute" style=" border-width:1px; border-radius:.46rem; border-top-left-radius: 0; border-top-right-radius: 0;">
+        <h3 class="fw6 f2-ns my-lh">Medigram</h3>
+        <p class="f6 fw3 silver lh-copy">Healthcare Messaging<br>Mobile - iOS, Android. 2015-2016</p>
+      </div>
+    </div>
+    </a>
+  </div> -->
+
+
+- - - 
+  <!-- <div style="position: relative !important;" class="">
+    <img style="max-width: 100% !important; wdith: 100% !important; position: absolute !important;" class="" src="images/labdoor-theme.png"></img>
+    <h1 class="mt5-l pt4-l ml7-l white txt-s1 f-5-ns" style="z-index: 100; position: absolute !important; left:5rem;  font-weight: 800;">
+      <span class="">
+        Labdoor
+      </span>
+    </h1>
+    <h4 class="mt6-l pt5 ml7-l white txt-s1 lh-copy f2-ns" style="z-index: 100; position: absolute !important; left:5rem;  font-weight: 400;">
+      <span>
+        Improving Supplements Transparency<br />One Pill at a Time
+      </span>
+    </h4>
+  </div>
+  <div class="pb7 pt7-ns"></div> -->
+    
+  <!-- second and best attempt
+  <div style="" class="mt5 flex flex-row  justify-start items-start content-start">
+    <img style="max-width: 100% !important; position: absolute !important; min-width:100% !important; z-index:0 !important;" class="item" src="images/labdoor-theme.png"></img>
+    <div class="my-w1 item" style="z-index: 100;">
+      <div class="">
+        <h1 class="white txt-s1 f-5-ns fw8 item" style="z-index: 100; margin: 0 !important;">
+          <span class="">
+            Labdoor
+          </span>
+        </h1>
+        <h4 class="white txt-s1 lh-copy f2-ns fw4" style="z-index: 100; margin: 0 !important;">
+          <span>
+            Improving Supplements Transparency<br />One Pill at a Time
+          </span>
+        </h4>
+      </div>
+    </div>
+  </div> -->
+
+
+CASE STUDY EXAMPLE
+
+
+
+<!-- CASE STUDY
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="mv5 cover-labdoor">
+    <div class="my-w3 ph3 ph3">
+      <h1 class="white txt-s1 f-5-ns fw7 pt6" style="margin-bottom: 0 !important;" >
+        <span class="">
+          Labdoor
+        </span>
+      </h1>
+      <h4 class="white txt-s1 f2-ns fw4 pb6 my-lh" style="margin-top: 0 !important;">
+        <p class="pb2">
+          Improving Supplements <span class=""> Transparency</span></p>
+        <p>One Pill at a Time</p>
+      </h4>
+    </div>
+  </div>
+  <article class="black-80 ph3 my-w3 measure f4-ns lh-copy">
+    <div class="flex flex-wrap mb5">
+      <div class="item flex-auto my-lh pb2 w-30-ns">
+        <h6 class="tracked header-gray">
+          ROLE
+        </h6>
+        <p class="f4-ns">
+          Product Designer
+        </p>
+      </div>
+    <div class="item flex-auto my-lh w-40">
+        <h6 class="tracked header-gray">
+          DATES
+        </h6>
+        <p class="f4-ns">
+          2015-2016
+        </p>
+      </div>
+    </div>
+    <h2 class="f2-ns black-80">
+      About Labdoor
+    </h2>
+    <h6 class="tracked header-gray">
+      THE PROBLEM
+    </h6>
+    <p>
+      If you’re trying to find a supplement in the US, you may end up with a low quality or harmful product. Supplements are generally considered safe by the FDA, thus have low quality control standard.
+    </p>
+    <p> 
+      <a class="my-link3 black-80 undeline" href="http://labdoor.com">Labdoor</a> is a marketplace intended to be the best resource to find, research and buy tested supplements. The company qualifies and ranks supplements in order to help consumers make an informed decision.
+    </p>
+    <h6 class="tracked header-gray">
+      MY ROLE
+    </h6>
+    <p>
+      At Labdoor I was involved in designing various parts of the product, from redesigning the entire enterprise website and improving the current consumer site to designing logos, infographics and print. It was a fun experience for me because I got to work on a multiple projects around the product rather than focusing on one core experience. The following is a summary of my work while I was at Labdoor.
+    </p>
+    <h2 class="f2-ns black-80 pt4">
+      Current Website Improvements
+    </h2>
+    <p>
+      When I joined, the website was recently redesigned. But as we know, even after a fresh redesign we can still find flaws and shortcomings. The category and product pages felt messy, unfocused and unguided. We investigated further to see the root cause and validated our assumptions through internal and external user feedback. We found a few things that needed to be fixed on our product and category pages.
+    </p> 
+      <img class="" src="images/.png"></img>
+
+
+      <!-- <a href="" class="my-link">
+        this is a link
+      </a> -->
+    </article>
+    <div class="my-w2 ph3 tc">
+      <img class="mw-100 mv5" src="images/880px.png"></img>
+    </div>
+    <div class="bg-light-gray pv3 mt5 ph3 tc">
+      <img class="mw-100 mv4-ns" src="images/880px.png"></img>
+      <p style="margin: 0 auto !important;" class="f6 black-40 tc pb3">
+        <span class="">
+          This is caption
+        </span>
+    </div>
+  <article class="black-80 pt3 ph3 my-w3 measure f4-ns lh-copy">
+    <img class="w-100 mv5" src="images/unravel-onboarding.png"></img>
+    <p>
+      I noticed our product page had way too many buttons and features. Each button looked like a primary button on the page and called for equal attention. The objective of a primary button should be singular and critically important. Due to engineering and time constraints we were unable to remove all of them with a single update. As a quick fix, we removed the fill from the secondary buttons so they drew less attention to help a user navigate towards prominent actions.
+    </p>
+    <div class="mv5">
+      <img class="w-100" src="images/unravel-onboarding.png"></img>
+      <p style="margin: 0 auto !important; padding: 0;" class="f6 black-40 tc">
+        <span class="">
+          This is caption
+        </span>
+      </p>
+    </div>
+    <p>
+      As a quick fix, we removed the fill from the secondary buttons so they drew less attention to help a user navigate towards prominent actions.
+    </p>
+    <div class="flex flex-row flex-wrap justify-center cover">
+      <img class="item flex-auto h-100-ns w-40-ns mw-100  pv2 pr2-ns" style="" src="images/unravel-onboarding.png"></img>
+      <img class="item h-auto w-40-ns mw-100 pv2" src="images/unravel-onboarding.png"></img>
+    </div>
+  </article>
+
+    <div class="mv5 cover-unravel">
+    <div class="my-w3 ph3 ph3">
+      <h1 class="white txt-s1 f-5-ns fw7 pt6" style="margin-bottom: 0 !important;" >
+        <span class="">
+          Unravel
+        </span>
+      </h1>
+      <h4 class="white txt-s1 lh-copy f2-ns fw4 pb6 my-lh" style="margin-top: 0 !important;">
+        <p class="pb2">
+          A new way to meet people</p>
+      </h4>
+    </div>
+  </div>
+
+      <div class="mv5 cover-medigram">
+    <div class="my-w3 ph3 ph3">
+      <h1 class="white txt-s1 f-5-ns fw7 pt6" style="margin-bottom: 0 !important;" >
+        <span class="">
+          Medigram
+        </span>
+      </h1>
+      <h4 class="white txt-s1 lh-copy f2-ns fw4 pb6 my-lh" style="margin-top: 0 !important;">
+        <p class="pb2 pl1-ns">
+          Mobile Messaging for Doctors</p><p class="pl1-ns">and Nurses</p>
+      </h4>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- - CASE STUDY LAYOUT EXAMPLE - - - - -
+    <a href="" class="my-link">
+        this is a link
+      </a>
+    </article>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="my-w2 ph3 tc">
+      <img class="mw-100 mv5" src="images/880px.png"></img>
+    </div>
+    <div class="bg-light-gray pv3 mt5 ph3 tc">
+      <img class="mw-100 mv4-ns" src="images/880px.png"></img>
+      <p style="margin: 0 auto !important;" class="f6 black-40 tc pb3">
+        <span class="">
+          This is caption
+        </span>
+    </div>
+  <article class="black-80 pt3 ph3 my-w3 measure f4-ns lh-copy">
+    <img class="w-100 mv5" src="images/unravel-onboarding.png"></img>
+    <p>
+      I noticed our product page had way too many buttons and features. Each button looked like a primary button on the page and called for equal attention. The objective of a primary button should be singular and critically important. Due to engineering and time constraints we were unable to remove all of them with a single update. As a quick fix, we removed the fill from the secondary buttons so they drew less attention to help a user navigate towards prominent actions.
+    </p>
+    <div class="mv5">
+      <img class="w-100" src="images/unravel-onboarding.png"></img>
+      <p style="margin: 0 auto !important; padding: 0;" class="f6 black-40 tc">
+        <span class="">
+          This is caption
+        </span>
+      </p>
+    </div>
+    <p>
+      As a quick fix, we removed the fill from the secondary buttons so they drew less attention to help a user navigate towards prominent actions.
+    </p>
+    <div class="flex flex-row flex-wrap justify-center cover">
+      <img class="item flex-auto h-100-ns w-40-ns mw-100  pv2 pr2-ns" style="" src="images/unravel-onboarding.png"></img>
+      <img class="item h-auto w-40-ns mw-100 pv2" src="images/unravel-onboarding.png"></img>
+    </div>
+  </article>
+  - - - -->
+
