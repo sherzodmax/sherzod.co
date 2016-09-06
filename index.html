@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>Sherzod is a Product Designer</title>
-  <meta name="description" content="Sherzod is a Product Designer based in San Francisco, California. He designs clean and simple interfaces for mobile and web.">
+  <meta name="description" content="Hi! I'm Sherzod - a Product Designer based in San Francisco, California. I design interfaces for mobile and web.">
   <meta name="author" content="Sherzod's website.">
 
   <!-- Mobile Specific Metas
@@ -15,29 +14,13 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-  
-    <!--<style type="text/css">*/
-    .headroom {position: fixed;top: 0;left: 0;right: 0;transition: all .2s ease-in-out;}
-    .headroom--unpinned {top: -100px;}
-    .headroom--pinned {top: 0;}
-    </style>
-   <script  type="text/javascript"  src="js/headroom.js"></script>      
-   <script  type="text/javascript"  src="js/jQuery.headroom.js"></script>
-    <script type="text/javascript">
-        $(".navbar-fixed-top").headroom();
-    </script>  -->
 
-<script src="js/headroom.js" type="text/javascript">// grab an element
-var myElement = document.querySelector("header");
-// construct an instance of Headroom, passing the element
-var headroom  = new Headroom(myElement);
-// initialise
-headroom.init(); </script> 
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/tachyons.css">
 
-<script type="text/javascript">
-
-</script> 
+ <!-- SCRIPT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
   <!-- scrollto.js script-->
 
@@ -51,215 +34,144 @@ $(document).ready(function() {
 });
 </script>
 
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/style.css">
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
-
 </head>
-<body>
 
-  <!-- Primary Page Layout
+<! -- BODY
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-<header class="container headroom">
-
-  <div class="container header">
-    <div class="row twelve columns" div id="nav">
-
-        <div id="sher">
-            <a href="index.html">Sherzod</a>
-        </div>        
-              
-          <ul id="ulnav" style="font-weight:700;">
-            <a  class="nav" href="#work"><li class="n"><b>WORK</b></li></a> 
-            <a  class="nav" href="http://sherzod.co/index.html#about"><li class="n"><b> ABOUT</b></li></a> 
-            <a  class="nav" href="#contact"><li class="n"><b>CONTACT</b></li></a>
-          </ul>
-
+<body style="background-color:#fcfcfc;">
+   <div class="nav-bg bt-0 br-0 bl-0 my-bw1 b--black-10 bb"> 
+    <div class="nav my-w3 b">
+      <a href="index.html" class="my-link dark-blue">
+        <ul class="sher list di fl f4 tl ph3">
+          <li class="di pv3">Sherzod</li>
+        </ul>
+      </a>
+      <ul class="nav-links list di fr pt2" id="nav">
+        <a href="#work" class="my-link dark-blue ph4 pv4">
+          <li class="di">Work</li>
+        </a>
+        <a href="#about" class="my-link dark-blue ph4 pv4">
+          <li class="di">About</li>
+        </a>
+        <a href="#contact" class="my-link dark-blue ph4 pv4">
+          <li class="di">Contact</li>
+        </a>
+      </ul>
     </div>
   </div>
 
-</header>  
-
-<div class="container"> 
-  <div class="row">
-    <div class="eight columns herotext" style="margin-bottom:4%;">
-      <h2 style="font-weight:700; color:#2a2a2a;">Product Designer</h2>
-      <h5 id="hero2" style="letter-spacing:0;">I design interfaces for mobile and web products.</h5>
-    </div>
+  <div class="center ph3 my-w3">
+    <h1 class="fw7 f2 mt6 pt5 black-80?" style="color:#2a2a2a;">
+      Product Designer
+    </h1>
+    <h4 class="fw4 f4 mb6 pb5 lh-copy">
+      I design interfaces for mobile and web products.
+    </h4>
   </div>
-  <!--I design digital products for {clean and simple} interfaces for mobile and web.-->
-
-<!----------------------- W O R K ---------------------->
-           
-  <div id="work" style="padding-top:2.6%;"> 
-  </div><!-- This is for nav -->
-  <center>
-      <h5 class="section">RECENT CASE STUDIES</h5>
-  </center>
-  <div class="row">
-      <div class="six columns" div id="folio">
-        <a class="workthumb"  href="unravel.html">
-            <img src="images/unravel-folio-thumb-1.png" img class="grow">  </img>
-            <!-- <h3 class="thumbtitle">Unravel</h3> -->
-        </a>                                
+<! -- RECENT CASE STUDIES
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="ph3 my-w3 mb5-ns" id="work">
+    <h2 class="header-gray fw6 my-tracked1">Recent case studies</h2>
+  </div>
+  <div class="ph3 my-w3 pt3 pb4">
+    <a href="labdoor.html" class="my-thumb-link black-80 hover-labblue">
+      <div class="thumb-s thumb-labdoor h5-ns ba br3 b-tlab2">
+        <div class="textbox-s bg-white br3 h-100-ns w-40 ba b-tlab1 tc pv5" style="border-width:1px; border-radius:.45rem; border-top-right-radius: 0; border-bottom-right-radius: 0; ">
+          <h3 class="fw6 f2-ns my-lh">Labdoor</h3>
+          <p class="f6 fw3 silver lh-copy">Ecommerce, Healthcare <br> Web, Branding. 2015-2016</p>
+        </div>
       </div>
-    <div class="six columns" div id="folio">
-        <a class="workthumb"  href="labdoor.html">
-            <img src="images/labdoor-folio-thumb-1.png" img class="grow">  </img>
-            <!-- <h3 class="thumbtitle">Scroll</h3> -->
-        </a> 
-    </div>
+    </a>
   </div>
-  <center>
-    <h5 class="section">PREVIOUS WORK</h5>
-  </center>
-  <div class="row">
-    <div class="six columns" div id="folio">
-        <a class="workthumb"  href="scroll.html">
-            <img src="images/scroll-folio-thumb-1.png" img class="grow">  </img>
-            <!-- <h3 class="thumbtitle">Scroll</h3> -->
-        </a> 
-    </div>
-    <div class="six columns" div id="folio">
-        <a class="workthumb"  href="gnana.html">
-            <img src="images/gnana-folio-thumb-1.png" img class="grow">  </img>
-            <!-- <h3 class="thumbtitle">Gnana</h3> -->
-        </a> 
-    </div>
-  </div>
-  <div class="row">
-    <div class="six columns" div id="folio">
-        <a class="workthumb"  href="3dbin.html">
-            <!-- <h3 class="thumbtitle">3DBin</h3> -->
-            <img src="images/3dbin-folio-thumb-1.png" img class="grow">  </img>
-        </a> 
-    </div>
-    <div class="row">
-    <div class="six columns" div id="folio">
-        <a class="workthumb"  href="#blank">
-            <!-- <h3 class="thumbtitle">3DBin</h3> -->
-            <img src="images/blank-folio-thumb-1.png" img class="grow">  </img>
-        </a> 
-    </div>
-  </div>
-
-<!----------------------- DRIBBBLE ---------------------->
-
-<!--   <div class="dribbble">
-            <center><h5 class="section">SELECTED SHOTS</h5></center>
-              
-            <div class="row"> 
-              <div class="four columns ">
-                <img src="images/drb1.png"> </img>
-              </div>
-
-              <div class="four columns">
-                <img src="images/drb2.png"> </img>
-              </div>
-
-              <div class="four columns">
-                <img src="images/drb3.png"> </img>
-              </div>
-              
-          </div>
-     
-  </div>
- -->
-
-<!----------------------- ABOUT ---------------------->
-
-  <div class="about", div id="about" style="padding-top:0.09%;">
-  <div class="about-content", div id="about" style="padding-top:;">
-    <center><h5 class="section">PROFILE</h5></center>
-      
-      <div class="me">
-        <img src="images/me.png" title="yes, that's me"></img>
+  <div class="my-w3 pb5 ph3 flex-ns flex-row flex-wrap-ns justify-center" style=""> 
+    <a href="unravel.html" class="my-thumb-link hover-unred black-80 item flex-auto mr3-ns" style="">
+      <div class="thumb-s thumb-unravel br3 ba b-tun2 thumb-v-h relative pb4" style="">
+        <div class="b-tun1 textbox-s  bg-white pv3 w-100 ba tc pt1 absolute bottom-0 " style="border-width:1px; border-radius:.44rem; border-top-left-radius: 0; border-top-right-radius: 0;">
+          <h3 class="fw6 f2-ns my-lh">Unravel</h3>
+          <p class="f6 fw3 silver lh-copy">Social Networking<br> Mobile - iOS, Android. 2014-2015</p>
+        </div>
       </div>
-
-    
-        <div class="aboutme">
-        <p id="">
-          <center style="margin-top:-8%;"> <b> My name is Sherzod. I'm a designer.👋</b> </center> 
-          <br>
-          I live in San Francisco, California. I focus on designing simple and intuitive interfaces. Sometimes I do illustration as a hobby. I enjoy reading about design and self-development.
-        </p>
-      
-        <p id="">
-          Check out my <a style="text-decoration:underline;" href="#work">recent case studies</a>.
-            <br>
-            I'm currently redesigning and coding this website. Adding my latest work, and improving small, but important details.
-        </p>
-        <p>
-          If you design, or interested in learning more about design - you're welcome to join <a href="https://www.facebook.com/groups/svdesigners/" style="text-decoration:underline;">the facebook design group I've created,</a> where designers share materials they find useful, or just post thoughts or questions. I'm working on a blog page for this little website.
-          So hold on, more reading is coming soon!
-        </p>
-        <br>
-        <br>
-        <br>
-        <img class="" src="images/yahooaward.v3.png" alt="Yahoo Award" title=""/>
-        <br>
-
-        <!--
-        <br>
-        <br>
-        <br>
-        <p class="brandonref" style="font-size:2rem;"><i> "Sherzod has an extraordinary design ability and understanding of what it takes to connect a targeted user with a product. The result is a breathtaking design package that has exceeded our original expectations. 
-        </p>
-        <p class="brandonref" style="font-size:2rem; margin-top:-4%;">Working with Sherzod has given our company a brilliant unique feel, and identity. He has a great ability to take our ideas and concepts and turn them into reality. Sherzod, has contributed beautiful visual design implementations, logo branding, company themes, mobile and web design, active gesture implementations, and tons of feedback on future direction of our UI/UX. We are confident that we will have the best UI with his design implementations to OS and overall company theme."</i>
-        </p>
-        <br>
-        <center><img style="text-align:center !important;"  src="images/Brandon-circled-200.png"  title="Brandon Mairs" width="14%;" />
-        <br>
-        <br><b> Brandon Mairs, CEO of <a href="http://www.arubixs.com">Arubixs</a></b></center>
-        -->
-
-
+    </a>
+    <div class="mb4"></div>  
+    <a href="medigram.html" class="my-thumb-link black-80 item flex-auto hover-medcyan " style=""> <!-- or instead flex-auto use style: flex:1; -->
+      <div class="thumb-s thumb-medigram b-tmed2 br3 ba thumb-v-h relative ml3-ns pb4 pt6-s" style="">
+        <div class="b-tmed1 textbox-s mw-100 bg-white pv3 w-100 ba tc bottom-0 absolute" style=" border-width:1px; border-radius:.44rem; border-top-left-radius: 0; border-top-right-radius: 0;">
+          <h3 class="fw6 f2-ns my-lh">Medigram</h3>
+          <p class="f6 fw3 silver lh-copy">Healthcare Messaging<br>Mobile - iOS, Android. 2015-2016</p>
+        </div>
       </div>
-
-  
-
+    </a>
   </div>
-
- 
-<!----------------------- CONTACT ---------------------->
-
-  <div class="contact">
-  <center><h5 class="section">CONNECT</h5></center>
-    <div class="row"> 
-      <div class="four columns soicons" div id="contact">   
-        <a class="socialicon"  a id="twitter" href="https://twitter.com/SherzodMx">
-            <img src="images/twitter.png" img class="">  </img>
-        </a> 
-        <a class="socialicon"  href="https://dribbble.com/sherzodmax">
-            <img src="images/dribbble.png" img class="">  </img>
-        </a> 
-        <p id="sendmeemail" style="padding-top:4.4%; font-weight:500; color:#5a5a5a; line-height: 1.9;">Have any questions or just want to say hi? <br> <b>sherzoduix@gmail.com</b>
+  <div class="ph3 my-w3 mb5-ns" id="work">
+    <h2 class="header-gray fw6 my-tracked1">Previous work</h2>
+  </div>
+    <div class="my-w3 pb5 ph3 flex-ns flex-row flex-wrap-ns justify-center" style=""> 
+    <a href="gnana.html" class="my-thumb-link hover-gnana black-80 item flex-auto mr3-ns" style="">
+      <div class="thumb-s thumb-gnana br3 ba b-tgnana2 thumb-v-h relative pb4" style="">
+        <div class="b-tgnana1 textbox-s  bg-white pv3 w-100 ba tc pt1 absolute bottom-0 " style="border-width:1px; border-radius:.44rem; border-top-left-radius: 0; border-top-right-radius: 0;">
+          <h3 class="fw6 f2-ns my-lh">Gnana</h3>
+          <p class="f6 fw3 silver lh-copy">Analytics<br> Web and Mobile. 2013</p>
+        </div>
       </div>
+    </a>
+    <div class="mb4"></div>  
+    <a href="3dbin.html" class="my-thumb-link black-80 item flex-auto hover-dbin" style=""> <!-- or instead flex-auto use style: flex:1; -->
+      <div class="thumb-s thumb-3dbin b-tbin2 br3 ba thumb-v-h relative ml3-ns pb4 pt6-s" style="">
+        <div class="b-tbin1 textbox-s mw-100 bg-white pv3 w-100 ba tc bottom-0 absolute" style=" border-width:1px; border-radius:.44rem; border-top-left-radius: 0; border-top-right-radius: 0;">
+          <h3 class="fw6 f2-ns my-lh">3DBIN</h3>
+          <p class="f6 fw3 silver lh-copy">Photography/Ecommerce<br>Mobile - iOS, Android. 2013-2014</p>
+        </div>
+      </div>
+    </a>
+  </div>
+<!-- PROFILE
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="bg-near-white cover contain pt1 pb6 mt5" id="about">
+    <h2 class="tc fw8 f4 black-40 my-tracked2 header-gray mt6 mb6">PROFILE</h2>
+    <div class="center ph3 my-w3 measure-ns f4-ns lh-copy mb4">
+      <div class="tc mb5">
+        <img src="images/me@2x.png" title="yes, that's me" class="pv1 w-20"></img>
+      </div>
+      <p class="b pv3">
+        My name is Sherzod. I'm a designer.👋
+      </p> 
+      <p class="">
+        I live in San Francisco, California. I focus on designing simple and intuitive interfaces. Sometimes I do illustration as a hobby. I enjoy reading about design and self-development.
+      </p>
+      <p>
+        Check out my <a style="" class="my-link3 black" href="#work">recent case studies</a>.
+        <br>
+        I'm currently redesigning and coding this website. Adding my latest work, and improving small, but important details.
+      </p>
+      <p>
+        If you design, or interested in learning more about design - you're welcome to join <a href="https://www.facebook.com/groups/svdesigners/" class="my-link3 black">the facebook design group I've created,</a>the facebook design group I've created,</a>where designers share materials they find useful, or just post thoughts or questions. I'm working on a blog page for this little website.
+        So hold on, more reading is coming soon!
+        </p>
+        <img src="images/yahooaward.v3.png" class="pv4 w-100"></img>
     </div>
   </div>
-
-<!----------------------- FOOTER ---------------------->
-
-
-
+<!-- CONTACT
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="pt6 pb5 tc" id="contact">
+    <h2 class="fw8 f4 black-40 my-tracked2 pb2 header-gray">CONNECT</h2>
+    <div class="mv5"> 
+      <a class="pv4 ph3 no-underline my-link2" href="https://twitter.com/SherzodMx">
+          <img src="images/twitter.png" class=""></img>
+      </a>
+      <a class="pv4 ph3 my-link2" href="https://dribbble.com/sherzodmax">
+          <img src="images/dribbble.png" class=""></img>
+      </a>
+      <p class="fw5 mid-gray mt5"> Have any questions or just want to say hi?</p>
+      <p class="mid-gray"><b>sherzoduix@gmail.com</b></p>
+    </div>
+  </div>
+<!-- FOOTER
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="footer">
-
-  </div> 
-
-<script type="text/javascript" src="js/retina.js"></script>
-
-</div>
-<!-- .Container  ends  -->
-
-
-
+  </div>
+  </div>
+    <script type="text/javascript" src="js/retina.js"></script>
 <!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  –––––––––––––––––––––––––––––––––––––––––––––––––-->
 </body>
 </html>
