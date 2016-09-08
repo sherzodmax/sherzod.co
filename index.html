@@ -39,7 +39,7 @@ $(document).ready(function() {
 <! -- BODY
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <body style="background-color:#fcfcfc;">
-   <div class="nav-bg bt-0 br-0 bl-0 my-bw1 b--black-10 bb"> 
+   <header id="header" class="animated headroom--fixed nav-bg bt-0 br-0 bl-0 my-bw1 b--black-10 bb" role="banner">
     <div class="nav my-w3 b">
       <a href="index.html" class="my-link dark-blue">
         <ul class="sher list di fl f4 tl ph3">
@@ -50,7 +50,7 @@ $(document).ready(function() {
         <a href="#work" class="my-link dark-blue ph4 pv4">
           <li class="di">Work</li>
         </a>
-        <a href="#about" class="my-link dark-blue ph4 pv4">
+        <a href="http://sherzod.co/index.html#about" class="my-link dark-blue ph4 pv4">
           <li class="di">About</li>
         </a>
         <a href="#contact" class="my-link dark-blue ph4 pv4">
@@ -58,10 +58,10 @@ $(document).ready(function() {
         </a>
       </ul>
     </div>
-  </div>
+  </header>
 
   <div class="center ph3 my-w3">
-    <h1 class="fw7 f2 mt6 pt5 black-80?" style="color:#2a2a2a;">
+    <h1 class="fw7 f2 mt6 pt6 black-80?" style="color:#2a2a2a;">
       Product Designer
     </h1>
     <h4 class="fw4 f4 mb6 pb5 lh-copy">
@@ -70,10 +70,10 @@ $(document).ready(function() {
   </div>
 <! -- RECENT CASE STUDIES
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="ph3 my-w3 mb5-ns" id="work">
+  <div class="ph3 my-w3 mb4-ns" id="work">
     <h2 class="header-gray fw6 my-tracked1">Recent case studies</h2>
   </div>
-  <div class="ph3 my-w3 pt3 pb4">
+  <div class="ph3 my-w3 pt2 pb4">
     <a href="labdoor.html" class="my-thumb-link black-80 hover-labblue">
       <div class="thumb-s thumb-labdoor h5-ns ba br3 b-tlab2">
         <div class="textbox-s bg-white br3 h-100-ns w-40 ba b-tlab1 tc pv5" style="border-width:1px; border-radius:.45rem; border-top-right-radius: 0; border-bottom-right-radius: 0; ">
@@ -102,7 +102,7 @@ $(document).ready(function() {
       </div>
     </a>
   </div>
-  <div class="ph3 my-w3 mb5-ns" id="work">
+  <div class="ph3 my-w3 mb4-ns" id="work">
     <h2 class="header-gray fw6 my-tracked1">Previous work</h2>
   </div>
     <div class="my-w3 pb5 ph3 flex-ns flex-row flex-wrap-ns justify-center" style=""> 
@@ -173,5 +173,22 @@ $(document).ready(function() {
     <script type="text/javascript" src="js/retina.js"></script>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––-->
+  <script src="js/headroom.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    var elem = document.getElementById('header');
+    console.log(elem);
+    var headroom = new Headroom(elem, {
+      "offset": 205,
+      "tolerance": 5,
+      "classes": {
+        "initial": "animated",
+        "pinned": "slideDown",
+        "unpinned": "slideUp"
+      }   
+    });
+    headroom.init();
+// to destroy
+// headroom.destroy();
+</script>
 </body>
 </html>
