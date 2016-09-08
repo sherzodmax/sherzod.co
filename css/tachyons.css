@@ -1288,6 +1288,124 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 .header-gray { color: #9C9EA5; }
 
+.headroom {
+    will-change: transform;
+    transition: transform 200ms linear;
+}
+.headroom--pinned {
+    transform: translateY(0%);
+}
+.headroom--unpinned {
+    transform: translateY(-100%);
+}
+.headroom--fixed {
+  position: fixed;
+  z-index: 10;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+/* Animated styles for headroom */
+.animated {
+  -webkit-animation-duration: 0.5s;
+     -moz-animation-duration: 0.5s;
+       -o-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+     -moz-animation-fill-mode: both;
+       -o-animation-fill-mode: both;
+          animation-fill-mode: both;
+  will-change: transform, opacity;
+}
+
+@-webkit-keyframes slideDown {
+  0% {
+    -webkit-transform: translateY(-100%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+  }
+}
+@-moz-keyframes slideDown {
+  0% {
+    -moz-transform: translateY(-100%);
+  }
+  100% {
+    -moz-transform: translateY(0);
+  }
+}
+@-o-keyframes slideDown {
+  0% {
+    -o-transform: translateY(-100%);
+  }
+  100% {
+    -o-transform: translateY(0);
+  }
+}
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.animated.slideDown {
+  -webkit-animation-name: slideDown;
+  -moz-animation-name: slideDown;
+  -o-animation-name: slideDown;
+  animation-name: slideDown;
+}
+@-webkit-keyframes slideUp {
+  0% {
+    -webkit-transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100%);
+  }
+}
+@-moz-keyframes slideUp {
+  0% {
+    -moz-transform: translateY(0);
+  }
+  100% {
+    -moz-transform: translateY(-100%);
+  }
+}
+@-o-keyframes slideUp {
+  0% {
+    -o-transform: translateY(0);
+  }
+  100% {
+    -o-transform: translateY(-100%);
+  }
+}
+@keyframes slideUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+.animated.slideUp {
+  -webkit-animation-name: slideUp;
+  -moz-animation-name: slideUp;
+  -o-animation-name: slideUp;
+  animation-name: slideUp;
+}
+
+
+
+.nav-bg { background-color:rgba(255,255,255,0.97);  backdrop-filter:blur(24px);
+  -webkit-backdrop-filter: saturate(120%) blur(24px); left: 0%; right: 0%;background-size: cover; background-size: contain; background-repeat: no-repeat; 
+  background-position: center center; 
+  -webkit-background-size: cover;  z-index:100; }
+
+/*position: fixed; z-index:100;*/
+
+
 .my-bw1 { border-width: .05rem; }
 
 .my-w1 { max-width: 800px; margin: 0 auto;}
@@ -1449,11 +1567,6 @@ html, body { max-width: 100%;
   }
 
 */
-
-.nav-bg { background-color:rgba(255,255,255,0.97);  backdrop-filter:blur(24px); position: fixed;
-  -webkit-backdrop-filter: saturate(120%) blur(24px); left: 0%; right: 0%;background-size: cover; background-size: contain; background-repeat: no-repeat; 
-  background-position: center center; 
-  -webkit-background-size: cover; z-index:100; }
 
 
 

@@ -23,7 +23,6 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
   <!-- scrollto.js script-->
-
 <script src="js/jquery-1.11.2.min.js" type="text/javascript"></script> 
 <script src="js/jquery.localScroll.js" type="text/javascript"></script> 
 <script src="js/jquery.scrollTo.js" type="text/javascript"></script> 
@@ -39,7 +38,7 @@ $(document).ready(function() {
 <! -- BODY
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <body style="background-color:#fcfcfc;">
-   <div class="nav-bg bt-0 br-0 bl-0 my-bw1 b--black-10 bb"> 
+   <header id="header" class="animated headroom--fixed nav-bg bt-0 br-0 bl-0 my-bw1 b--black-10 bb" role="banner">
     <div class="nav my-w3 b">
       <a href="index.html" class="my-link dark-blue">
         <ul class="sher list di fl f4 tl ph3">
@@ -58,7 +57,7 @@ $(document).ready(function() {
         </a>
       </ul>
     </div>
-  </div>
+  </header>
 <!-- CASE STUDY
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="mv5 cover-labdoor">
@@ -406,7 +405,7 @@ $(document).ready(function() {
   <div class="mv7"></div>
 <! -- RECENT CASE STUDIES
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="ph3 my-w3 mb5-ns" id="work">
+  <div class="ph3 my-w3 mb4-ns" id="work">
     <h2 class="header-gray fw6 my-tracked1">Recent case studies</h2>
   </div>
   <div class="ph3 my-w3 pt3 pb4">
@@ -462,5 +461,22 @@ $(document).ready(function() {
     <script type="text/javascript" src="js/retina.js"></script>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––-->
+  <script src="js/headroom.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    var elem = document.getElementById('header');
+    console.log(elem);
+    var headroom = new Headroom(elem, {
+      "offset": 205,
+      "tolerance": 5,
+      "classes": {
+        "initial": "animated",
+        "pinned": "slideDown",
+        "unpinned": "slideUp"
+      }   
+    });
+    headroom.init();
+// to destroy
+// headroom.destroy();
+</script>
 </body>
 </html>
