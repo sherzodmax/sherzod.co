@@ -1272,14 +1272,17 @@ code, .code { font-family: Consolas, monaco, monospace; }
 */
 
 .cover-labdoor { background-image: url("http://sherzod.co/images/labdoor-theme.png") ; 
+  background-color: #3096CF; 
   background-repeat: no-repeat; 
   background-position: 80% center; 
   -webkit-background-size: cover; }
-.cover-unravel { background-image: url("http://sherzod.co/images/theme-unravel.png") ; 
+.cover-unravel { background-image: url("http://sherzod.co/images/theme-unravel.png") ;
+  background-color: #DD5E48;
   background-repeat: no-repeat; 
   background-position: 68% center; 
   -webkit-background-size: cover; }
-.cover-medigram { background-image: url("http://sherzod.co/images/theme-medigram.png") ; 
+.cover-medigram { background-image: url("http://sherzod.co/images/theme-medigram.png") ;
+  background-color: #48ADBD; 
   background-repeat: no-repeat; 
   background-position: 68% center; 
   -webkit-background-size: cover; }
@@ -1398,7 +1401,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 
 
-.nav-bg { background-color:rgba(255,255,255,0.97);  backdrop-filter:blur(24px);
+.nav-bg { background-color:rgba(255,255,255,0.80);  backdrop-filter:blur(24px);
   -webkit-backdrop-filter: saturate(120%) blur(24px); left: 0%; right: 0%;background-size: cover; background-size: contain; background-repeat: no-repeat; 
   background-position: center center; 
   -webkit-background-size: cover;  z-index:100; }
@@ -1488,16 +1491,19 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 
 
-.thumb-labdoor { background-image: url("http://sherzod.co/images/thumb-labdoor.png"); 
+.thumb-labdoor { background-image: url("http://sherzod.co/images/thumb-labdoor.png");
+  background-color: #3096CF;
   background-repeat: no-repeat; 
   background-position: 84% center; 
   -webkit-background-size: cover; }
 
 .thumb-unravel { background-image: url("http://sherzod.co/images/thumb-unravel.png"); 
+  background-color: #DD5E48;
   background-repeat: no-repeat; 
   background-position: 60% center; 
   -webkit-background-size: cover; }
 .thumb-medigram { background-image: url("http://sherzod.co/images/thumb-medigram.png"); 
+  background-color: #48ADBD;
   background-repeat: no-repeat; 
   background-position: 40% center; 
   -webkit-background-size: cover; }
@@ -1572,7 +1578,7 @@ html, body { max-width: 100%;
 
 @media screen and (min-width: 18em) and (max-width: 29em) {
  
-.nav-bg { background-color:rgba(255,255,255,0.96); position: fixed; -webkit-backdrop-filter: blur(24px);}
+.nav-bg { background-color:rgba(255,255,255,0.80); position: fixed; -webkit-backdrop-filter: blur(24px);}
 .sher { /*background-color: yellow;*/ padding-left: 38.6%; padding-bottom: .4em; margin: 0 auto; font-size: .98em; font-weight: 700; padding-top: .25rem;}  
 .nav-links { /*background-color: yellow;*/ font-size: .8em; float: left; margin: 0 auto !important; padding-right: 0em; padding-left: 0.45em; padding-top: .1em; padding-bottom:.8em; font-weight: 500;}
 .thumb-s { margin-bottom: ; position: relative !important; z-index: -1; height: 22rem;}
