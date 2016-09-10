@@ -1271,7 +1271,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 */
 
-.cover-labdoor { background-image: url("http://sherzod.co/images/labdoor-theme.png") ; 
+.cover-labdoor { background-image: url("http://sherzod.co/images/theme-labdoor@2x.jpg") ; 
   background-color: #3096CF; 
   background-repeat: no-repeat; 
   background-position: 80% center; 
@@ -1281,7 +1281,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
   background-repeat: no-repeat; 
   background-position: 68% center; 
   -webkit-background-size: cover; }
-.cover-medigram { background-image: url("http://sherzod.co/images/theme-medigram.png") ;
+.cover-medigram { background-image: url("http://sherzod.co/images/theme-medigram.jpg") ;
   background-color: #48ADBD; 
   background-repeat: no-repeat; 
   background-position: 68% center; 
@@ -1491,29 +1491,29 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 
 
-.thumb-labdoor { background-image: url("http://sherzod.co/images/thumb-labdoor.png");
+.thumb-labdoor { background-image: url("http://sherzod.co/images/thumb-labdoor.jpg");
   background-color: #3096CF;
   background-repeat: no-repeat; 
   background-position: 84% center; 
   -webkit-background-size: cover; }
 
-.thumb-unravel { background-image: url("http://sherzod.co/images/thumb-unravel.png"); 
+.thumb-unravel { background-image: url("http://sherzod.co/images/thumb-unravel.jpg"); 
   background-color: #DD5E48;
   background-repeat: no-repeat; 
   background-position: 60% center; 
   -webkit-background-size: cover; }
-.thumb-medigram { background-image: url("http://sherzod.co/images/thumb-medigram.png"); 
+.thumb-medigram { background-image: url("http://sherzod.co/images/thumb-medigram.jpg"); 
   background-color: #48ADBD;
   background-repeat: no-repeat; 
   background-position: 40% center; 
   -webkit-background-size: cover; }
 
-.thumb-gnana { background-image: url("http://sherzod.co/images/thumb-gnana@2x.png"); 
+.thumb-gnana { background-image: url("http://sherzod.co/images/thumb-gnana@2x.jpg"); 
   background-repeat: no-repeat; 
   background-position: 42% center; 
   -webkit-background-size: cover; }
 
-.thumb-3dbin { background-image: url("http://sherzod.co/images/thumb-3dbin@2x.png"); 
+.thumb-3dbin { background-image: url("http://sherzod.co/images/thumb-3dbin@2x.jpg"); 
   background-repeat: no-repeat; 
   background-position: 50% center; 
   -webkit-background-size: cover; }
