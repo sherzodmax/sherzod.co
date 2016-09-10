@@ -2617,9 +2617,4 @@ html, body { max-width: 100%;
  .v-btm-l { vertical-align: bottom; }
 }
 
-/*html, body { max-width: 100% !important;
-    overflow-x: hidden !important;
-    height: auto  !important;
-    overflow-x: hidden!important;
-    overflow-y: scroll!important; }*/
 
