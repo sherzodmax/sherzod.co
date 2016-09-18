@@ -33,6 +33,12 @@ $(document).ready(function() {
 });
 </script>
 
+<script src="antimoderate.js"></script>
+<script>
+    var img = document.getElementById('picture');
+    AntiModerate.process(img, img.getAttribute("data-antimoderate-idata"));
+</script>
+
 </head>
 
 <! -- BODY
@@ -122,7 +128,7 @@ $(document).ready(function() {
     </p>
   </article>
   <div class="bg-near-white pv3 mt5 ph3 tc">
-    <img class="mw-100 mv4-ns" src="images/labdoor-beforeAreasAfter@2x.png"></img>
+    <img class="mw-100 mv4-ns" id="picture" src="images/labdoor-beforeAreasAfter@2x.png"></img>
     <p style="margin: 0 auto !important;" class="f6 black-40 tc pb3">
       <span class="">
         Before  →  Attention Areas  → After
@@ -135,7 +141,7 @@ $(document).ready(function() {
     </p>
   </article>
   <div class="bg-near-white pv3 mt5 ph3 tc">
-    <img class="w-80 mv4-ns" src="images/labdoor-whyBuy-beforeAfter@2x.png"></img>
+    <img class="w-80 mv4-ns" id="picture" src="images/labdoor-whyBuy-beforeAfter@2x.png"></img>
     </div>
   <article class="black-90 ph3 my-w3 measure f4-ns lh-copy pt4">
     <p>
@@ -149,7 +155,7 @@ $(document).ready(function() {
     </p>
   </article>
   <div class="bg-near-white pv3 mt5 ph3 tc">
-    <img class="w-60-ns mw-100 mv4-ns" src="images/labdoor-relatedCategories-beforeAfter@2x.png"></img>
+    <img class="w-60-ns mw-100 mv4-ns" id="picture" src="images/labdoor-relatedCategories-beforeAfter@2x.png"></img>
   </div>
   <article class="black-90 ph3 my-w3 measure f4-ns lh-copy pt4">
     <h6 class="tracked header-gray">
