@@ -1583,6 +1583,7 @@ html, body { max-width: 100%;
 .nav-links { /*background-color: yellow;*/ font-size: .8em; float: left; margin: 0 auto !important; padding-right: 0em; padding-left: 0.45em; padding-top: .1em; padding-bottom:.8em; font-weight: 500;}
 .thumb-s { margin-bottom: ; position: relative !important; z-index: -1; height: 22rem;}
 .textbox-s { bottom: 0 !important; position: absolute !important; border-width:1px; width: 100%; height: 8rem; padding-top: .66em; border-bottom-right-radius:.46rem !important; border-top-left-radius: 0 !important; border-top-right-radius: 0 !important; border-left-width:1px !important; border-style: solid; border-top-width: 0 !important; font-size: 1.2em;}
+.car3dbin {height:100%;}
 }
 
 @media screen and (min-width: 22em) and (max-width: 25em) {
