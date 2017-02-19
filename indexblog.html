@@ -1,0 +1,34 @@
+---
+layout: posts
+---
+
+<section class="center mw7">
+  <article class="">
+    {% for post in site.posts limit: 1 %}
+      <h1>{{ post.title }}</h1>
+      <h6 class="black-30 ttu tracked">
+        {{ post.date | date: "%B %-d, %Y" }}</h6>
+      {{ post.content }}
+    {% endfor %}
+  </article>
+  <section>
+    <article>
+      <ul>
+        {% for post in paginator.posts %}
+          <li>
+            <a href="{{ post.url }}" title="{{post.title}}">
+              <date datetime="{{post.date}}">
+                {{ post.date | date: "%B %-d, %Y" }}
+              </date>
+              {{ post.title }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+      <!-- <p>...</a></p> -->
+      {% include _archives.html %}
+    </article>
+  </section>
+</section>
+
+ 

@@ -1,0 +1,14 @@
+<article>
+  <h2 class="pt6 pb5 tc fw8 f4 black-40 my-tracked2 header-gray ">ARCHIVES</h2>
+  <ul class="pv4 db ph0">
+    {% for post in site.posts limit: 25 %}
+      <li class="pv3 list db">
+        <a href="{{ post.url }}" title="{{post.title}}" class="pv3 my-link-blog w-100 db my-lh"> 
+          <date datetime="{{post.date}}" class="silver">{{ post.date | date: "%B %-d, %Y" }}</date>
+          <p class="fw6 f3-ns lh-copy">
+          {{ post.title }}</p>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</article>

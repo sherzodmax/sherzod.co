@@ -1,0 +1,15 @@
+<article class="black-90 ph3 my-w3 measure f4-ns lh-copy">
+  <h2 class="pt6 pb5 tc fw8 f4 black-40 my-tracked2 header-gray ">RECENT POSTS</h2>
+  <ul>
+  {% for post in site.related_posts limit: 3 %}
+    <li class="pv3 list db">
+      <a href="{{ post.url }}" title="{{post.title}}" class="pv3 my-link-blog w-100 db my-lh"> 
+        <date datetime="{{post.date}}" class="silver">{{ post.date | date: "%B %-d, %Y" }}</date>
+        <p class="fw6 f3-ns lh-copy">
+        {{ post.title }}</p>
+      </a>
+    </li>
+  {% endfor %}
+  <!-- <a href="/archives/index.html">See archives →</a> -->
+  </ul>
+</article>
