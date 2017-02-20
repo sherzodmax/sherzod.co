@@ -1271,20 +1271,20 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 */
 
-.cover-labdoor { background-image: url("http://sherzod.co/images/theme-labdoor@2x.jpg") ; 
-  background-color: #3096CF; 
-  background-repeat: no-repeat; 
-  background-position: 80% center; 
+.cover-labdoor { background-image: url("http://sherzod.co/images/theme-labdoor@2x.jpg") ;
+  background-color: #3096CF;
+  background-repeat: no-repeat;
+  background-position: 80% center;
   -webkit-background-size: cover; }
 .cover-unravel { background-image: url("http://sherzod.co/images/theme-unravel.jpg") ;
   background-color: #DD5E48;
-  background-repeat: no-repeat; 
-  background-position: 68% center; 
+  background-repeat: no-repeat;
+  background-position: 68% center;
   -webkit-background-size: cover; }
 .cover-medigram { background-image: url("http://sherzod.co/images/theme-medigram.jpg") ;
-  background-color: #48ADBD; 
-  background-repeat: no-repeat; 
-  background-position: 68% center; 
+  background-color: #48ADBD;
+  background-repeat: no-repeat;
+  background-position: 68% center;
   -webkit-background-size: cover; }
 
 .fc { float: center !important; }
@@ -1405,8 +1405,8 @@ blockquote {background-color:#F0F0F0; margin: 1.6rem 0rem 1.6rem 0rem; padding: 
 
 
 .nav-bg { background-color:rgba(255,255,255,0.86);  backdrop-filter:blur(24px);
-  -webkit-backdrop-filter: saturate(120%) blur(24px); left: 0%; right: 0%;background-size: cover; background-size: contain; background-repeat: no-repeat; 
-  background-position: center center; 
+  -webkit-backdrop-filter: saturate(120%) blur(24px); left: 0%; right: 0%;background-size: cover; background-size: contain; background-repeat: no-repeat;
+  background-position: center center;
   -webkit-background-size: cover;  z-index:100; }
 
 /*position: fixed; z-index:100;*/
@@ -1423,22 +1423,24 @@ blockquote {background-color:#F0F0F0; margin: 1.6rem 0rem 1.6rem 0rem; padding: 
 .my-lh { line-height: .2;}
 .lh-ul { line-height: 2; }
 
-a:any-link { color: inherit; transition:color .0s ease-out, color .15s ease-in;
-text-decoration: underline; 
+/* a, a:active, a:visited, a:-webkit-any-link { color: inherit; transition:color .0s ease-out, color .15s ease-in;
+text-decoration: underline red; text-underline-position: under; -webkit-text-underline-position: under;
+-ms-text-underline-position: below;
 -webkit-text-decoration-color: #aaa;
--moz-text-decoration-color: #aaa;  /* vendor prefix not required as of V36 */
-text-decoration-color: #aaa; }
-a:visited {text-decoration: none; color: inherit;}
-a:hover { /*opacity: .6;*/  color:#A4B4CD; transition:color .0s ease-out, color .2s ease-in; 
+-moz-text-decoration-color: #aaa;
+text-decoration-color: #aaa;  /* vendor prefix not required as of V36 */
+
+a, a:active, a:visited, a:-webkit-any-link { color: inherit; text-decoration: none; border-bottom: 1px solid #a2a4a7; padding-bottom: .04em; }
+
+a:hover { /*opacity: .6;*/  transition:color .0s ease-out, color .2s ease-in;
 -webkit-text-decoration-color: #A4B4CD;
 -moz-text-decoration-color: #A4B4CD;  /* vendor prefix not required as of V36 */
-text-decoration-color: #A4B4CD; }
+text-decoration: none;
+border-bottom: 4px solid #A4B4CD; padding-bottom: 0em; }
 /* re-written default <a> tag style for purposes of my blog / jekyll default likn style */
 
-
-
-.my-link { text-decoration: none; transition:color .0s ease-out, color .15s ease-in;}
-.my-link:link, .my-link:visited { text-decoration: none; color: #00449e; }
+.my-link { text-decoration: none; transition:color .0s ease-out, color .15s ease-in; padding-bottom: 1.6em;}
+.my-link:link, .my-link:visited { text-decoration: none; color: #00449e; border-bottom: none; padding-bottom: 1.6em;}
 .my-link:hover { /*opacity: .6;*/  color:#A4B4CD; transition:color .0s ease-out, color .2s ease-in; }
 .my-link:active { text-decoration: none; }
 .my-link:focus { text-decoration: none; }
@@ -1451,22 +1453,22 @@ text-decoration-color: #A4B4CD; }
 .link:focus { transition: color .15s ease-in; } */
 
 @import './_normalize';
-.my-link3 { text-decoration: underline; transition:color .0s ease-out, color .15s ease-in; }
-.my-link3:link, .my-link3:visited { text-decoration: underline; }
+.my-link3 { text-decoration: underline; transition:color .0s ease-out, color .15s ease-in; border-bottom: none; }
+.my-link3:link, .my-link3:visited { text-decoration: underline;  border-bottom: none; }
 .my-link3:hover { color: #1A6CC2; transition:color .0s ease-out, color .2s ease-in; text-decoration: underline; }
-.my-link3:active { text-decoration: underline; }
-.my-link3:focus { text-decoration: border; }
+.my-link3:active { text-decoration: underline; text-decoration: none; border-bottom: none; }
+.my-link3:focus { text-decoration: border; text-decoration: none; border-bottom: none; }
 
-.my-link4 {  transition:color .0s ease-out, color .15s ease-in;}
-.my-link4:link, .my-link3:visited { text-decoration: none;}
-.my-link4:hover { color: #1A6CC2; transition:color .0s ease-out, color .2s ease-in; }
-.my-link4:active { text-decoration: none; }
-.my-link4:focus { text-decoration: none; }
+.my-link4 {  transition:color .0s ease-out, color .15s ease-in; border-bottom: none; }
+.my-link4:link, .my-link3:visited { text-decoration: none; border-bottom: none; }
+.my-link4:hover { color: #1A6CC2; transition:color .0s ease-out, color .2s ease-in; border-bottom: none; }
+.my-link4:active { text-decoration: none; border-bottom: none; }
+.my-link4:focus { text-decoration: none; border-bottom: none; }
 
 
-.my-link2 { text-decoration: none; transition: .15s ease-in;}
-.my-link2:link, .my-link2:visited { text-decoration: none;}
-.my-link2:hover { opacity: .6; transition: .12s ease-in; }
+.my-link2 { text-decoration: none; transition: .15s ease-in; text-decoration: none; border-bottom: none; }
+.my-link2:link, .my-link2:visited { text-decoration: none; text-decoration: none; border-bottom: none;}
+.my-link2:hover { opacity: .6; transition: .12s ease-in; text-decoration: none; border-bottom: none; }
 
 
 .my-link-blog{ text-decoration: none; color:#00449e; transition:color .0s ease-out, color .15s ease-in;}
@@ -1476,8 +1478,8 @@ text-decoration-color: #A4B4CD; }
 .my-link-blog:hover { background-color: rgba( 0, 0, 0, .0); color:#A4B4CD; transition:color .0s ease-out, color .15s ease-in;}
 
 
-.my-thumb-link { text-decoration: none; }
-.my-thumb-link:link, .link:visited { text-decoration: none;}
+.my-thumb-link { text-decoration: none; border-bottom: none;}
+.my-thumb-link:link, .link:visited { text-decoration: none; border-bottom: none;}
 .my-thumb-link:hover {}
 .my-thumb-link:active { text-decoration: none;}
 .my-thumb-link:focus { text-decoration: none; }
@@ -1497,59 +1499,59 @@ text-decoration-color: #A4B4CD; }
 
 .b-tlab1 { border-color:#C7CBD1; transition: .15s ease-in; border-right-style: none; }
 .b-tlab2 { border-color:#fcfcfc; transition: .12s ease-in; }
-.b-tlab2:hover { border-color: #2F96CD;  transition: .12s ease-in;} 
+.b-tlab2:hover { border-color: #2F96CD;  transition: .12s ease-in;}
 .b-tlab2:hover .b-tlab1 { border-color:#fcfcfc; transition: .08s ease-in; border-right-style: none; }
 
 .b-tun1 { border-color:#C7CBD1; transition: .15s ease-in; border-top-style: none; }
 .b-tun2 { border-color:#fcfcfc; transition: .12s ease-in; }
-.b-tun2:hover { border-color: #B24242;  transition: .12s ease-in;} 
+.b-tun2:hover { border-color: #B24242;  transition: .12s ease-in;}
 .b-tun2:hover .b-tun1 { border-color:#fcfcfc; transition: .08s ease-in; }
 
 .b-tmed1 { border-color:#C7CBD1; transition: .15s ease-in; border-top-style: none; }
 .b-tmed2 { border-color:#fcfcfc; transition: .12s ease-in; }
-.b-tmed2:hover { border-color: #1C9BB7;  transition: .12s ease-in;} 
+.b-tmed2:hover { border-color: #1C9BB7;  transition: .12s ease-in;}
 .b-tmed2:hover .b-tmed1 { border-color:#fcfcfc; transition: .08s ease-in; }
 
 .b-tgnana1 { border-color:#C7CBD1; transition: .15s ease-in; border-top-style: none; }
 .b-tgnana2 { border-color:#fcfcfc; transition: .12s ease-in; }
-.b-tgnana2:hover { border-color: #40CE84;  transition: .12s ease-in;} 
+.b-tgnana2:hover { border-color: #40CE84;  transition: .12s ease-in;}
 .b-tgnana2:hover .b-tgnana1 { border-color:#fcfcfc; transition: .08s ease-in; }
 
 .b-tbin1 { border-color:#C7CBD1; transition: .15s ease-in; border-top-style: none; }
 .b-tbin2 { border-color:#fcfcfc; transition: .12s ease-in; }
-.b-tbin2:hover { border-color: #3952B6;  transition: .12s ease-in;} 
+.b-tbin2:hover { border-color: #3952B6;  transition: .12s ease-in;}
 .b-tbin2:hover .b-tbin1 { border-color:#fcfcfc; transition: .08s ease-in; }
 
 
 
 .thumb-labdoor { background-image: url("http://sherzod.co/images/thumb-labdoor.jpg");
   background-color: #3096CF;
-  background-repeat: no-repeat; 
-  background-position: 84% center; 
+  background-repeat: no-repeat;
+  background-position: 84% center;
   -webkit-background-size: cover; }
 
-.thumb-unravel { background-image: url("http://sherzod.co/images/thumb-unravel.jpg"); 
+.thumb-unravel { background-image: url("http://sherzod.co/images/thumb-unravel.jpg");
   background-color: #DD5E48;
-  background-repeat: no-repeat; 
-  background-position: 60% center; 
+  background-repeat: no-repeat;
+  background-position: 60% center;
   -webkit-background-size: cover; }
-.thumb-medigram { background-image: url("http://sherzod.co/images/thumb-medigram.jpg"); 
+.thumb-medigram { background-image: url("http://sherzod.co/images/thumb-medigram.jpg");
   background-color: #48ADBD;
-  background-repeat: no-repeat; 
-  background-position: 40% center; 
+  background-repeat: no-repeat;
+  background-position: 40% center;
   -webkit-background-size: cover; }
 
-.thumb-gnana { background-image: url("http://sherzod.co/images/thumb-gnana@2x.jpg"); 
-  background-repeat: no-repeat; 
-  background-position: 42% center; 
+.thumb-gnana { background-image: url("http://sherzod.co/images/thumb-gnana@2x.jpg");
+  background-repeat: no-repeat;
+  background-position: 42% center;
   -webkit-background-size: cover; }
 
-.thumb-3dbin { background-image: url("http://sherzod.co/images/thumb-3dbin@2x.jpg"); 
-  background-repeat: no-repeat; 
-  background-position: 50% center; 
+.thumb-3dbin { background-image: url("http://sherzod.co/images/thumb-3dbin@2x.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% center;
   -webkit-background-size: cover; }
 
-.thumb-v-h { height: 26rem; } 
+.thumb-v-h { height: 26rem; }
 
 .txt-s1 { text-shadow: 0px 2px 4px rgba(0, 0, 0, .14);}
 
@@ -1608,9 +1610,9 @@ html, body { max-width: 100%;
 
 
 @media screen and (min-width: 18em) and (max-width: 29em) {
- 
+
 .nav-bg { background-color:rgba(255,255,255,0.86); position: fixed; -webkit-backdrop-filter: blur(24px);}
-.sher { /*background-color: yellow;*/ padding-left: 38.6%; padding-bottom: .4em; margin: 0 auto; font-size: .98em; font-weight: 700; padding-top: .25rem;}  
+.sher { /*background-color: yellow;*/ padding-left: 38.6%; padding-bottom: .4em; margin: 0 auto; font-size: .98em; font-weight: 700; padding-top: .25rem;}
 .nav-links { /*background-color: yellow;*/ font-size: .8em; float: left; margin: 0 auto !important; padding-right: 0em; padding-left: 0.45em; padding-top: .1em; padding-bottom:.8em; font-weight: 500;}
 .thumb-s { margin-bottom: ; position: relative !important; z-index: -1; height: 22rem;}
 .textbox-s { bottom: 0 !important; position: absolute !important; border-width:1px; width: 100%; height: 8rem; padding-top: .66em; border-bottom-right-radius:.46rem !important; border-top-left-radius: 0 !important; border-top-right-radius: 0 !important; border-left-width:1px !important; border-style: solid; border-top-width: 0 !important; font-size: 1.2em;}
@@ -1620,14 +1622,14 @@ html, body { max-width: 100%;
 @media screen and (min-width: 22em) and (max-width: 25em) {
 
 .sher {  margin: 0 auto; padding-left: 40%;}
-.nav-links { font-size: .8em; float: left;  margin: 0 auto; padding-right: 5em; padding-left: 2.5em;} 
+.nav-links { font-size: .8em; float: left;  margin: 0 auto; padding-right: 5em; padding-left: 2.5em;}
 
 }
 
 @media screen and (min-width: 25em) and (max-width: 29em) {
 
 .sher {  margin: 0 auto; padding-left: 40.8%;}
-.nav-links { font-size: .8em; float: left;  margin: 0 auto; padding-right: 5em; padding-left: 4em;} 
+.nav-links { font-size: .8em; float: left;  margin: 0 auto; padding-right: 5em; padding-left: 4em;}
 
 }
 

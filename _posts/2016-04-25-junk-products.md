@@ -2,6 +2,7 @@
 title: Time to Reflect on Junk Products
 layout: posts
 author: Sherzod
+style:
 ---
 After reading “[Have you tried Junkfood.app](https://medium.com/@dustin/have-you-tried-junkfood-app-f135bb64f95#.5ntguv42a)” by [Dustin Senos](https://medium.com/@dustin), I had similar thoughts on the subject that I wanted to share. Are we [connecting or disconnecting](https://www.youtube.com/watch?v=B8ofWFx525s) the world with the new technology? Is it just a transformation of the way we communicate and what sort of transformation is it? Is it for better or for worse? Finally, why is it happening this way such that we end up with so many junk products.
 
