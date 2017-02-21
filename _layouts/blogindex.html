@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include _head.html %}
+  {% include _navigation.html %}
+<body style="background-color:#fcfcfc;" class="mt4">
+  <article class="black-90 ph3 my-w3 measure f4-ns lh-copy pt6 pv5">
+    <!-- This is where the title: in your front matter gets dropped in.-->
+    <h1>
+      {{page.title}}
+    </h1>
+    <h6 class="black-30 ttu tracked">
+      {{ page.date | date: "%B %-d, %Y" }}
+    </h6>
+    <!-- This is where post content lives -->
+      {{content}}
+    <!-- end of post content -->
+  </article>
+  {% include _footer.html %}
+  {% include _google_analytics.html %}
+</body>
+</html>
