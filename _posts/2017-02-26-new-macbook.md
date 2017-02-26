@@ -6,7 +6,7 @@ author: Sherzod
 
 It's almost a month since I bought my new  Macbook Pro. So far, I'm liking it though I do have few small issues with it.
 
-<img class="w-100 pv4" alt="looks good eh?" src="/images/IMG_6487@2x.jpg">
+<img class="w-100 pv4" alt="looks good eh?" src="/img/IMG_6487.jpg">
 
 Specs: 2.9 GHz i7 processor, 16GB RAM, 4GB video card, 1TB hard drive.
 
