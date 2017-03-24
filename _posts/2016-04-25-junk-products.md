@@ -1,5 +1,5 @@
 ---
-title: Time to Reflect on Junk Products
+title: Time to reflect on junk products
 layout: posts
 author: Sherzod
 style:
