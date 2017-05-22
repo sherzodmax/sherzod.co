@@ -1286,6 +1286,12 @@ code, .code { font-family: Consolas, monaco, monospace; }
   background-repeat: no-repeat;
   background-position: 68% center;
   -webkit-background-size: cover; }
+.cover-operator { background-image: url("/images/operator-cs-theme@2x.png") ;
+  background-color: #899DA3;
+  background-repeat: no-repeat;
+  background-position: 80% center;
+  -webkit-background-size: cover; }
+
 
 .fc { float: center !important; }
 
@@ -1401,6 +1407,20 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 /* MY CUSTOM STYLES */
 
+.btn-counter { background-color: white;  transition: .15s ease-in; }
+.btn-counter:hover { border-color:#00449e; transition: .12s ease-in; }
+
+.thumb-labdoor { background-image: url("http://sherzod.co/images/thumb-labdoor.jpg");
+  background-color: #3096CF;
+  background-repeat: no-repeat;
+  background-position: 84% center;
+  -webkit-background-size: cover; }
+
+  .b-tlab1 { border-color:#C7CBD1; transition: .15s ease-in; border-right-style: none; }
+  .b-tlab2 { border-color:#fcfcfc; transition: .12s ease-in; }
+  .b-tlab2:hover { border-color: #2F96CD;  transition: .12s ease-in;}
+  .b-tlab2:hover .b-tlab1 { border-color:#fcfcfc; transition: .08s ease-in; border-right-style: none; }
+
 blockquote {background-color:#F0F0F0; margin: 1.6rem 0rem 1.6rem 0rem; padding: 1.6rem 1.6rem 1.6rem 2.4rem;}
 
 .nav-bg { background-color:rgba(255,255,255,0.86);  backdrop-filter:blur(24px);
@@ -1416,6 +1436,8 @@ blockquote {background-color:#F0F0F0; margin: 1.6rem 0rem 1.6rem 0rem; padding: 
 .my-w1--fl { max-width: 800px;  }
 .my-w2 { max-width: 940px; margin: 0 auto; }
 .my-w3 { max-width: 720px; margin: 0 auto; }
+
+.my-bg-gray { background-color:#E4ECEF; }
 
 .my-lh { line-height: .2;}
 .lh-ul { line-height: 2; }
@@ -1447,6 +1469,7 @@ border-bottom: 4px solid #A4B4CD; padding-bottom:; }
 .link:hover { transition: color .15s ease-in; }
 .link:active { transition: color .15s ease-in; }
 .link:focus { transition: color .15s ease-in; } */
+
 
 @import './_normalize';
 .my-link3 { text-decoration: underline; transition:color .0s ease-out, color .15s ease-in; border-bottom: none; }
@@ -1483,6 +1506,7 @@ border-bottom: 4px solid #A4B4CD; padding-bottom:; }
 .hover-labblue:hover { color:#2F96CD; }
 .hover-unred:hover { color:#B24242; }
 .hover-medcyan:hover { color: #1C9BB7; }
+.hover-opblue:hover { color:#1E6AF2; }
 
 .hover-gnana:hover { color:#40CE84; }
 .hover-dbin:hover { color: #3952B6; }
@@ -1492,8 +1516,13 @@ border-bottom: 4px solid #A4B4CD; padding-bottom:; }
 
 .b-tlab1 { border-color:#C7CBD1; transition: .15s ease-in; border-right-style: none; }
 .b-tlab2 { border-color:#fcfcfc; transition: .12s ease-in; }
-.b-tlab2:hover { border-color: #2F96CD;  transition: .12s ease-in;}
+.b-tlab2:hover { border-color: #2F96CD; transition: .12s ease-in;}
 .b-tlab2:hover .b-tlab1 { border-color:#fcfcfc; transition: .08s ease-in; border-right-style: none; }
+
+.b-topr1 { border-color:#C7CBD1; transition: .15s ease-in; border-right-style: none; }
+.b-topr2 { border-color:#fcfcfc; transition: .12s ease-in; }
+.b-topr2:hover { border-color:#1E6AF2; transition: .12s ease-in;}
+.b-topr2:hover .b-topr1 { border-color:#fcfcfc; transition: .08s ease-in; border-right-style: none; }
 
 .b-tun1 { border-color:#C7CBD1; transition: .15s ease-in; border-top-style: none; }
 .b-tun2 { border-color:#fcfcfc; transition: .12s ease-in; }
@@ -1514,6 +1543,8 @@ border-bottom: 4px solid #A4B4CD; padding-bottom:; }
 .b-tbin2 { border-color:#fcfcfc; transition: .12s ease-in; }
 .b-tbin2:hover { border-color: #3952B6;  transition: .12s ease-in;}
 .b-tbin2:hover .b-tbin1 { border-color:#fcfcfc; transition: .08s ease-in; }
+
+
 
 .thumb-labdoor { background-image: url("http://sherzod.co/images/thumb-labdoor.jpg");
   background-color: #3096CF;
@@ -1540,6 +1571,12 @@ border-bottom: 4px solid #A4B4CD; padding-bottom:; }
 .thumb-3dbin { background-image: url("http://sherzod.co/images/thumb-3dbin@2x.jpg");
   background-repeat: no-repeat;
   background-position: 50% center;
+  -webkit-background-size: cover; }
+
+.thumb-operator { background-image: url("/images/thumb-operator.jpg");
+  background-color: #1E6AF2;
+  background-repeat: no-repeat;
+  background-position: 84% center;
   -webkit-background-size: cover; }
 
 .thumb-v-h { height: 26rem; }
@@ -2660,8 +2697,10 @@ html, body { max-width: 100%;
 
 
 
-/* CSS FOR SEATTLE POST
+/*CSS FOR SEATTLE POST*/
 
+
+@import './_normalize';
 
 
 .cover {
@@ -2715,7 +2754,7 @@ html, body { max-width: 100%;
 }
 
 .lh-copy {
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
 .mw9 {
@@ -2809,9 +2848,9 @@ html, body { max-width: 100%;
     font-size: .875rem;
 }
 
-.measure {
+/*.measure {
     max-width: 30em;
-}
+} // disabled because it was clashing with my case study posts */
 
 .measure-wide {
     max-width: 34em;
@@ -2958,5 +2997,3 @@ html, body { max-width: 100%;
         font-size: 2.25rem;
     }
 }
-
-*/
