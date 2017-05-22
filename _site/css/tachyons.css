@@ -1286,7 +1286,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
   background-repeat: no-repeat;
   background-position: 68% center;
   -webkit-background-size: cover; }
-.cover-operator { background-image: url("/images/operator-cs-theme@2x.png") ;
+.cover-operator { background-image: url("http://sherzod.co/images/operator-cs-theme@2x.jpg") ;
   background-color: #899DA3;
   background-repeat: no-repeat;
   background-position: 80% center;
