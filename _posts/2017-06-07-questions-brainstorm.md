@@ -25,7 +25,7 @@ Below is my list of questions in no specific order because depending on the situ
 - When and how are we going to conduct user research and interviews?
 - Who are our closest competitors? What can we learn from them?
 - What sets us apart?
-- What’s the best medium to express this? Mobile app (iOS, Android, web or all three)
+- What’s the best medium to express this? Mobile app (iOS, Android?), web, or both?
 - What’s the current roadmap? Where do we see the product in 5 years? 10 years? 50 years?
 
 It’s better to work with your CEO/PM/Head of Product to get these questions answered.
