@@ -1510,7 +1510,7 @@ border-bottom: 4px solid #A4B4CD; padding-bottom:; }
 
 .b-topr1 { border-color:#C7CBD1; transition: .15s ease-in; border-right-style: none; }
 .b-topr2 { border-color:#fcfcfc; transition: .12s ease-in; }
-.b-topr2:hover { border-color:#0086FF; transition: .12s ease-in;}
+.b-topr2:hover { border-color:#tel; transition: .12s ease-in;}
 .b-topr2:hover .b-topr1 { border-color:#fcfcfc; transition: .08s ease-in; border-right-style: none; }
 
 .b-tun1 { border-color:#C7CBD1; transition: .15s ease-in; border-top-style: none; }
