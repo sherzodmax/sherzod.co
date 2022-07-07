@@ -1,3 +1,0 @@
-Host *
-  AddKeysToAgent yes
-  IdentityFile /Users/sherzod/Dropbox/50-59_projects/sherzod.co/sherzodmax.github.io/.ssh/id_ed25519
